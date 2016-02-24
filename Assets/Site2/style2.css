@@ -1,0 +1,129 @@
+h1 {
+	color:#009;
+	text-align:center;
+	font-family:impact, fantasy, sans-serif;
+	font-size:250%;
+	border-style:dashed;
+	}
+
+h2{
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:italic;
+
+
+}
+h3 {
+	color:black;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	border-style:dotted;
+}
+body {
+	background-image:url('12345.jpg');
+}
+
+p {
+	color:black;
+	font-family:comic sans MS, Geneva, sans-serif;
+	text-align:center;
+}
+
+
+ul {
+	border-style:groove;
+	border-width:5px;
+	border-color:black;
+	list-style-type:none;
+	margin-left:40%;
+	margin-right:37.4%;
+	font-family: candara, verdana, comic sans ms, sans-serif;
+	border-radius:15px;
+
+}
+
+li {
+	display:inline;
+	background-color:orange;
+	text-decoration: none;
+	border-radius:15px;
+}
+
+ul li a:hover{
+	color: orange;
+}
+
+footer{
+	position: absolute;
+	left: 37%;
+	bottom: 2%;
+}
+
+ol{
+	margin: 20%;
+}
+
+footer p{
+		text-align: center;
+		font-family:Tahoma, Geneva, sans-serif;
+}
+a:link {background-color:#00FFFF;} 	/*unvisited link*/   /* mouse over link */
+a:active {background-color:black;}  /* selected link */
+
+article {
+		color:#00FFFF;
+		float:left;
+		word-wrap:break-word;
+}
+
+.current{
+		background-color:red;
+}
+
+div.img
+{
+  margin: 12px;
+  padding: 4px;
+  border: 8px ridge #00ffff;
+  height: auto;
+  width: auto;
+  float:left;
+
+}	
+
+div.img img
+{
+  display: inline;
+  margin: 5px;
+  border: 2px dotted #00ffff;
+}
+
+div.img a:hover img {border: 2px outset #0000ff;}
+div.desc
+{ 
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+  color: #FF8C00;
+font-family: Candara,Tahoma, Geneva, sans-serif;
+}
+
+.vid	{
+
+	 margin:5px;
+  padding: 5px;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+
+  display:inline;
+  margin:5px;
+
+}
+
+iframe{
+	border: 7px ridge #00FFFF;
+	border-radius: 13px;
+}

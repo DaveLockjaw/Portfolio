@@ -1,0 +1,110 @@
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>FTP and HTTP SERVERS</title>
+</head>
+
+<body>
+
+<header></header>
+
+<article>
+	<section>
+		<p>This website will show you step by step how to make an FTP server and an HTTP server.</p>
+	</section>
+</article>
+
+<article>
+	<section>
+		<h5>How to make an FTP server</h5>
+		<ol>
+			<li>First, you need to download FileZilla Server <a href="https://filezilla-project.org/download.php?type=server">here.</a></li>
+			<li>Once FileZilla Server is installed, go to settings and make sure the server listens to port 21.</li>
+			<img src="1.png" height="400" width="700">
+			<li>Now go to Passive Mode Settings and enter your IP address and check the custom port range and enter ports 50000 to 53000.</li>
+			<img src="3.png" height="400" width="700">
+			<li>Now go to Admin Interface Settings and enter a password for your server.</li>
+			<img src="24.png" height="400" width="700">
+			<li>Now click OK and you're done.</li>
+			<img src="23.png" height="400" width="700">
+			<li>Now go to Edit and click Users</li>
+			<img src="24.png" height="400" width="700">
+			<li>Now go to shared folders.</li>
+			<img src="25.png" height="400" width="700">
+			<li>In the Users section click Add</li>
+			<img src="26.png" height="400" width="700">
+			<li>Now enter the name of the user</li>
+			<img src="27.png" height="400" width="700">
+			<li>Then add a directory</li>
+			<img src="28.png" height="400" width="700">
+			<img src="29.png" height="400" width="700">
+			<li>Click OK and you're done with the server</li>
+			<img src="30.png" height="400" width="700">
+		</ol>
+		<ol>	
+			<p>Now you have to connect a client to the server to show that it works.</p>
+			<li>You can install the FileZilla client <a href="https://filezilla-project.org/download.php?type=client">here.</a></li>
+			<li>After you have it installed, type in the Host IP, Username, and password</li>
+			<img src="client (4).png" height="400" width="700">
+			<li>After that, you should connect </li>
+			<img src="client (5).png" height="400" width="700">
+			<li>on the bottom right there is a panel with files that you can download. Right click and click download.<li>
+			<img src="client (6).png" height="400" width="700">
+		</ol>
+	</section>
+</article>
+<br />
+<br />
+<br />
+<article>
+	<section>
+		<ol>
+			<li>First, create a simple HTML file</li>
+			<li>Then go to computer, disk C, then in the inetpub folder go to wwwroot and paste the HTML file in that folder, make sure to rename this file index or else the HTML file will not work.</li>
+			<li>After go to the Internet Information Services Manager</li>
+			<img src="31.jpg" height="400" width="600">
+			<li>In there go to the default document folder, if index.html and index.htm are in there you are all set.</li>
+			<img src="46.jpg" height="400" width="600">
+			<li>After you must go to the firewall and open a port for this server. I chose 50456 for mine, inbound and outbound.</li>
+			<li>Follow the pictures below on what to click while setting this up.</li>
+			<img src="32.png" height="400" width="700">
+			<br />
+			<img src="33.png" height="400" width="700">
+			<br />
+			<img src="34.png" height="400" width="700">
+			<br />
+			<img src="35.png" height="400" width="700">
+			<br />
+			<img src="36.png" height="400" width="700">
+			<br />
+			<img src="37.png" height="400" width="700">
+			<br />
+			<img src="38.png" height="400" width="700">
+			<br />
+			<img src="39.png" height="400" width="700">
+			<br />
+			<img src="40.png" height="400" width="700">
+			<br />
+			<img src="41.png" height="400" width="700">
+			<br />
+			<img src="42.png" height="400" width="700">
+			<br />
+			<img src="43.png" height="400" width="700">
+			<br />
+			<img src="44.png" height="400" width="700">
+			<br />
+			<li>After type in you ip and your port into any web browser and it should be there!</li>
+			<img src="45.png" height="400" width="700">
+			<br />
+			<li> Any computer on your network should be able to access it too if they open 50456 inbound and outbound ports!</li>
+			<img src="derek.jpg" height="400" width="700">
+		</ol>
+	</section>
+</article>
+
+
+
+</body>
+</html>
